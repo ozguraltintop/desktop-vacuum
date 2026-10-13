@@ -1,0 +1,8 @@
+1) "Derle.command" dosyasına çift tıklayın (açılmazsa:  bash Derle.command).
+2) Robot ekranın üst ortasında belirir. Üzerine tıklayın.
+3) Robot yavaşça, yılan gibi şerit şerit tarar; arkasında tarama izi bırakır,
+   solda küçük bir çalışma haritası görünür. Sadece üstüne geldiği dosyayı yutar.
+4) Dosyalar: Belgeler/Masaüstü Temizliği/<tarih> içine taşınır.
+İzinler: İlk çalışmada "Finder'ı kontrol etmek istiyor" ve Masaüstü erişimi sorulursa
+"İzin Ver / Tamam" deyin. (Finder izni şart değil: konumlar Masaüstü .DS_Store dosyasından da okunur.)
+Ayarlar: Sources/RobotViewModel.swift içinde speed (hız), laneWidth (şerit genişliği).
